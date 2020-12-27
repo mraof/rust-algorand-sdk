@@ -3,6 +3,7 @@
 # Documentation
 
 General Algorand documentation is available at https://developer.algorand.org/
+This is the current attempt to stay up Rust version of the Algorand SDK
 
 # Quickstart
 
