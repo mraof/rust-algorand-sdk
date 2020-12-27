@@ -20,15 +20,15 @@ serde = { version = "1.0", features = ["derive"] }
 serde_bytes = "0.11"
 serde_json = "1.0.40"
 reqwest = "0.9.20"
+async-trait = "0.1.42" # This is currently required to properly initialize the world in cucumber-rust
+futures = "0.3.8" # You can use a different executor if you wish
+gherkin_rust = "^0.8"
 
 [[test]]
 name = "cucumber"
 harness = false # Allows Cucumber to print output instead of libtest
 
 [dev-dependencies]
-cucumber = { package = "cucumber_rust", git = "https://github.com/mraof/cucumber-rust" }
+cucumber = { package = "cucumber_rust", version = "^0.7.0" } 
 dirs = "2.0"
 chrono = "0.4.9"
-
-[patch."https://github.com/bbqsrc/gherkin-rust"]
-gherkin_rust = {git = "https://github.com/mraof/gherkin-rust", branch = "patch-1"}
