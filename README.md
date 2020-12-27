@@ -6,6 +6,7 @@ General Algorand documentation is available at https://developer.algorand.org/
 This is the current attempt to stay up Rust version of the Algorand SDK
 
 # Quickstart
+This quick start guide assumes the user has the Algorand Sandbox 2.0 installed.
 
 ```rust
 use algosdk::{AlgodClient};
