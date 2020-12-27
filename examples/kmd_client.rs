@@ -3,8 +3,8 @@ use std::error::Error;
 use algosdk::{KmdClient, MasterDerivationKey};
 
 fn main() -> Result<(), Box<dyn Error>> {
-    let kmd_address = "http://localhost:8080";
-    let kmd_token = "contents-of-kmd.token";
+    let algod_address = "http://localhost:4001";
+    let algod_token="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
 
     let kmd_client = KmdClient::new(kmd_address, kmd_token);
 
