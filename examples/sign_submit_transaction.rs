@@ -4,7 +4,7 @@ use algosdk::transaction::{BaseTransaction, Payment, Transaction, TransactionTyp
 use algosdk::{Address, AlgodClient, KmdClient, MicroAlgos};
 
 fn main() -> Result<(), Box<dyn Error>> {
-    let kmd_address = "http://localhost:4001";
+    let kmd_address = "http://localhost:4002";
     let kmd_token = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
     let algod_address = "http://localhost:4001";
     let algod_token = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
