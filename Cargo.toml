@@ -1,7 +1,7 @@
 [package]
 name = "algosdk"
 version = "0.1.0"
-authors = ["mraof <mraof@mraof.com>"]
+authors = ["mraof <mraof@mraof.com>","Kwame Bryan <kwame.bryan@gmail.com>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -29,6 +29,6 @@ name = "cucumber"
 harness = false # Allows Cucumber to print output instead of libtest
 
 [dev-dependencies]
-cucumber = { package = "cucumber_rust", version = "^0.7.0" } 
+cucumber = { package = "cucumber_rust", version = "^0.6.0" }
 dirs = "2.0"
 chrono = "0.4.9"
